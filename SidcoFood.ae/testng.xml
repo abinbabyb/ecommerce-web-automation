@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SidcoFoods Automation Suite">
+    <test name="Registration Tests">
+        <classes>
+            <class name="sidcofoods.RegistrationTest"/>
+        </classes>
+    </test>
+    
+    <!-- Test for Login -->
+    <test name="Login Tests">
+        <classes>
+            <class name="sidcofoods.LoginTest"/>
+        </classes>
+    </test>
+    
+    
+     <!-- Logout Test -->
+    <test name="Logout Test">
+        <classes>
+            <class name="sidcofoods.LogoutTest">
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Search Test -->
+    <test name="Search Test">
+        <classes>
+            <class name="sidcofoods.SearchTest">
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Cart Test -->
+    <test name="Cart Test">
+        <classes>
+            <class name="sidcofoods.CartTest">
+            </class>
+        </classes>
+    </test>
+    
+     <!-- CheckOut Test -->
+    <test name="CheckOut Test">
+        <classes>
+            <class name="sidcofoods.CheckOutTest">
+            </class>
+        </classes>
+    </test>
+    
+    
+</suite>

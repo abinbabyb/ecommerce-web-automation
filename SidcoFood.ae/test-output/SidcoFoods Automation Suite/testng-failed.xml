@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SidcoFoods Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Registration Tests(failed)">
+    <classes>
+      <class name="sidcofoods.RegistrationTest">
+        <methods>
+          <include name="testValidRegistration"/>
+          <include name="tearDown"/>
+          <include name="clearBrowser"/>
+          <include name="setUp"/>
+          <include name="testWeakPassword"/>
+        </methods>
+      </class> <!-- sidcofoods.RegistrationTest -->
+    </classes>
+  </test> <!-- Registration Tests(failed) -->
+  <test thread-count="5" name="Login Tests(failed)">
+    <classes>
+      <class name="sidcofoods.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clearBrowser"/>
+          <include name="setUp"/>
+          <include name="testInvalidLogin"/>
+          <include name="testValidLogin"/>
+        </methods>
+      </class> <!-- sidcofoods.LoginTest -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+  <test thread-count="5" name="Search Test(failed)">
+    <classes>
+      <class name="sidcofoods.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clearBrowser"/>
+          <include name="setUp"/>
+          <include name="testXSSSearch"/>
+        </methods>
+      </class> <!-- sidcofoods.SearchTest -->
+    </classes>
+  </test> <!-- Search Test(failed) -->
+  <test thread-count="5" name="Cart Test(failed)">
+    <classes>
+      <class name="sidcofoods.CartTest">
+        <methods>
+          <include name="testViewCartAndCheckout"/>
+          <include name="tearDown"/>
+          <include name="clearBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- sidcofoods.CartTest -->
+    </classes>
+  </test> <!-- Cart Test(failed) -->
+  <test thread-count="5" name="CheckOut Test(failed)">
+    <classes>
+      <class name="sidcofoods.CheckOutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clearBrowser"/>
+          <include name="setUp"/>
+          <include name="testCheckout"/>
+        </methods>
+      </class> <!-- sidcofoods.CheckOutTest -->
+    </classes>
+  </test> <!-- CheckOut Test(failed) -->
+</suite> <!-- Failed suite [SidcoFoods Automation Suite] -->
